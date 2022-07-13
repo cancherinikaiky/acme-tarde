@@ -1,0 +1,29 @@
+{
+    "name": "fabio3268/acme-financial",
+    "description": "ACME - Financial | Desenvolvimento de uma aplicação MVC - Disciplina de PWII",
+    "minimum-stability": "stable",
+    "authors": [
+      {
+        "name": "Fábio Santos",
+        "email": "fabiosantos@ifsul.edu.br",
+        "homepage": "https://www.ifsul.edu.br",
+        "role": "Developer"
+      }
+    ],
+    "config": {
+      "vendor-dir": "vendor"
+    },
+    "autoload": {
+      "psr-4": {
+        "Source\\": "source/"
+      },
+      "files": [
+        "source/Boot/Config.php",
+        "source/Boot/Helpers.php"
+      ]
+    },
+    "require": {
+      "coffeecode2/router2": "1.0.8",
+      "dompdf/dompdf": "^2.0"
+    }
+  }
