@@ -12,6 +12,5 @@ define("CONF_DB_NAME", "bd-acme"); // aqui deve ser alterado para o nome do banc
 /**
  * PROJECT URLs
  */
-define("CONF_URL_BASE", "localhost/"); // depois da / deve vir o nome da pasta do trabalho
-
-?>
+define("CONF_URL_BASE", "https://www.localhost/acme-tarde"); // depois da / deve vir o nome da pasta do trabalho
+define("CONF_URL_TEST", "https://www.localhost/acme-tarde"); // depois da / deve vir o nome da pasta do trabalho

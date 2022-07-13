@@ -5,7 +5,8 @@ ob_start();
 require __DIR__ . "/vendor/autoload.php";
 use CoffeeCode\Router\Router;
 
-$route = new Router('https://www.localhost/acme-tarde', ":");
+$route = new Router("https://www.localhost/acme-tarde", ":");
+//$route = new Router(url(), ":");
 //$route = new Router('localhost/acme-tarde', ":"); // Route para localhost
 
 
