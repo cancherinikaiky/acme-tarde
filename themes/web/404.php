@@ -8,6 +8,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='../assets/web/css/styles.css'>
     <script src='../assets/web/scripts/scripts.js' async></script>
 </head>
-<body>    <h1>Página não encontrada!</h1>
+<body>    
+    <h1>Página não encontrada!</h1>
 </body>
 </html>

@@ -23,7 +23,7 @@
       ]
     },
     "require": {
-      "coffeecode2/router2": "1.0.8",
+      "coffeecode/router": "1.0.8",
       "dompdf/dompdf": "^2.0"
     }
   }
