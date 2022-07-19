@@ -1,6 +1,6 @@
 {
-    "name": "fabio3268/acme-financial",
-    "description": "ACME - Financial | Desenvolvimento de uma aplicação MVC - Disciplina de PWII",
+    "name": "fabio3268/acme-tarde",
+    "description": "Estrutura básica de uma aplicação MVC",
     "minimum-stability": "stable",
     "authors": [
       {
