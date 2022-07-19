@@ -14,10 +14,10 @@ class App
         require __DIR__ . "/../../themes/app/list.php";
     }
 
-    public function createPDF () : void 
-    {
-        require __DIR__ . "/../../themes/app/create-pdf.php";
-    }
+    //public function createPDF () : void
+    //{
+    //    require __DIR__ . "/../../themes/app/create-pdf.php";
+    //}
 }
 
 ?>

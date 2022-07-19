@@ -9,6 +9,6 @@
     <script src='assets/web/scripts/scripts.js' async></script>
 </head>
 <body>
-    <h1>Sobre o Site</h1>
+    <h1>Sobre o Site...</h1>
 </body>
 </html>

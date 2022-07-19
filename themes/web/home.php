@@ -10,5 +10,8 @@
 </head>
 <body>
     <h1>Página Principal</h1>
+    <?php
+    echo __DIR__;
+    ?>
 </body>
 </html>

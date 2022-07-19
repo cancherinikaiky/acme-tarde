@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49a69f67-1f1a-4694-82c2-4fbea9f39bcf" name="Changes" comment="dev start">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/acme-tarde.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/acme-tarde.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app/scripts/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app/scripts/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/web/scripts/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/web/scripts/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/App/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/App/App.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/app/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/app/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/web/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/web/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/web/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/web/home.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +26,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,11 +36,11 @@
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/coffeecode2/router2" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
       <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
       <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
-      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
-      <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
-      <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/masterminds/html5" />
       <path value="$PROJECT_DIR$/vendor/coffeecode/router" />
     </include_path>
@@ -65,6 +76,10 @@
       <workItem from="1657741026473" duration="1888000" />
       <workItem from="1657749592468" duration="171000" />
       <workItem from="1657799990732" duration="87000" />
+      <workItem from="1657817627942" duration="893000" />
+      <workItem from="1657819464881" duration="4000" />
+      <workItem from="1658236413624" duration="594000" />
+      <workItem from="1658237498168" duration="3190000" />
     </task>
     <task id="LOCAL-00001" summary="dev start">
       <created>1657730352260</created>
@@ -87,7 +102,28 @@
       <option name="project" value="LOCAL" />
       <updated>1657742315804</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dev start">
+      <created>1657817714057</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657817714057</updated>
+    </task>
+    <task id="LOCAL-00005" summary="dev start">
+      <created>1657817799156</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657817799156</updated>
+    </task>
+    <task id="LOCAL-00006" summary="dev start">
+      <created>1657817891811</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657817891811</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
