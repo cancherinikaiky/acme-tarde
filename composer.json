@@ -24,6 +24,7 @@
     },
     "require": {
       "dompdf/dompdf": "^2.0",
-      "coffeecode/router": "1.0.8"
+      "coffeecode/router": "1.0.8",
+      "coffeecode2/datalayer2": "1.1.8"
     }
   }
