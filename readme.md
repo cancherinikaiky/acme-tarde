@@ -15,3 +15,4 @@ A aplicação se divide em três partes:
 > Não esqueçam de rodar o “composer update” para fazer o download dos arquivos das bibliotecas.
 - coffeecode/router (controlador de rotas)
 - dompdf/dompdf (criação de arquivos em PDF)
+- league/plates (sistema de templates PHP nativo que é rápido, fácil de usar e fácil de estender)

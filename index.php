@@ -15,7 +15,7 @@ $route = new Router('http://www.localhost/acme-tarde', ":");
 $route->namespace("Source\App");
 $route->get("/","Web:home");
 $route->get("/sobre","Web:about");
-$route->get("/pdo","Web:pdoTest");
+$route->get("/projeto","Web:project");
 
 /**
  * App Routs

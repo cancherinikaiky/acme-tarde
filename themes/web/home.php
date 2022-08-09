@@ -1,17 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>..:: Meu Site ::..</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='assets/web/css/styles.css'>
-    <script src='assets/web/scripts/scripts.js' async></script>
-</head>
-<body>
+<?php $this->layout("_theme");
+?>
+<div>
     <h1>Página Principal</h1>
-    <?php
-    echo __DIR__;
-    ?>
-</body>
-</html>
+    <div>
+        <?php
+            if(!$user->getName()) {
+        ?>
+            <h1>Usuário não existe</h1>
+        <?php
+            }
+            else {
+        ?>
+           <h1>Nome: <?= $user->getName(); ?></h1>
+           <h1>Email: <?= $user->getEmail(); ?></h1>
+           <h1>Nome: <?php echo $name; ?></h1>
+        <?php
+            }
+        ?>
+    </div>
+</div>

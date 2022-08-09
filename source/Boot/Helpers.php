@@ -4,22 +4,14 @@
  * Esse script consta no composer.json para ser incluido automaticamente
  */
 
-/**
- * ####################
- * ###   VALIDATE   ###
- * ####################
- */
+ // ###   VALIDATE   ###
 
 function is_email(string $email): bool
 {
     return filter_var($email, FILTER_VALIDATE_EMAIL);
 }
 
-/**
- * ####################
- * ###      URL     ###
- * ####################
- */
+// ###      URL     ###
 
 /**
  * @param string|null $path
@@ -27,14 +19,25 @@ function is_email(string $email): bool
  */
 function url(string $path = null): string
 {
-    if(strpos($_SERVER['HTTP_HOST'], "localhost")){
+    if($path) {
+        return CONF_URL_BASE . "/{$path}";
+    }
+
+    return CONF_URL_BASE;
+}
+
+// ###      ASSETS     ###
+
+function theme(string $path = null, string $theme = CONF_VIEW_THEME): string
+{
+    if(strpos($_SERVER['HTTP_HOST'], "localhost") || $_SERVER['HTTP_HOST'] == 'localhost'){
         if($path){
-            return CONF_URL_TEST . "/" . ($path[0] == "/" ? mb_substr($path, 1) : $path);
+            return CONF_URL_TEST . "/themes/{$theme}/" . ($path[0] == "/" ? mb_substr($path, 1) : $path);
         }
-        return CONF_URL_TEST;
+        return CONF_URL_TEST . "/themes/{$theme}";
     }
     if($path){
-        return CONF_URL_BASE . "/" . ($path[0] == "/" ? mb_substr($path, 1) : $path);
+        return CONF_URL_BASE . "/themes/{$theme}/" . ($path[0] == "/" ? mb_substr($path, 1) : $path);
     }
-    return CONF_URL_BASE;
+    return CONF_URL_BASE . "/themes/{$theme}";
 }

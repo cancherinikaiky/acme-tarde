@@ -25,6 +25,6 @@
     "require": {
       "dompdf/dompdf": "^2.0",
       "coffeecode/router": "1.0.8",
-      "coffeecode2/datalayer2": "1.1.8"
+      "league/plates": "v3.4.0"
     }
   }
