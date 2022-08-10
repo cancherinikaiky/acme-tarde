@@ -1,4 +1,5 @@
-<?php $this->layout("_theme");
+<?php
+  $this->layout("_theme");
 ?>
 <div>
     <h1>Página Principal</h1>
@@ -13,7 +14,6 @@
         ?>
            <h1>Nome: <?= $user->getName(); ?></h1>
            <h1>Email: <?= $user->getEmail(); ?></h1>
-           <h1>Nome: <?php echo $name; ?></h1>
         <?php
             }
         ?>

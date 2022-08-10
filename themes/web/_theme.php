@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?= CONF_SITE_NAME; ?></title>
     <link rel="stylesheet" href="<?= url("assets/web/css/styles.css"); ?>">
+    <script type="text/javascript" src="<?= url("assets/web/scripts/scripts.js"); ?>" async></script>
 </head>
 <body>
 <nav>
@@ -17,6 +18,8 @@
     ?>
             <a title="" href="<?= url() ?>">Home</a>
             <a title="" href="<?= url("sobre") ?>">Sobre</a>
+            <a title="" href="<?= url("contato") ?>">Contato</a>
+            <a title="" href="<?= url("testeErro") ?>">Teste de Erro</a>
     <?php
         }
     ?>
@@ -25,7 +28,7 @@
     <?= $this->section("content"); ?>
 </main>
 <footer>
-    <?= CONF_SITE_NAME; ?>
+    <?= CONF_SITE_NAME; ?> - Todos os direitos reservados.
 </footer>
 </body>
 </html>

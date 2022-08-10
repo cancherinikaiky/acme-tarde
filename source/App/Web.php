@@ -11,32 +11,32 @@ class Web
 
     public function __construct()
     {
-        $this->view = new Engine(CONF_VIEW_WEB,CONF_VIEW_EXT);
+        $this->view = new Engine(CONF_VIEW_WEB,'php');
+        //$this->view = new Engine(__DIR__ . "/../../themes/web",'php');
     }
 
     public function home() : void
     {
+        // require __DIR__ . "/../../themes/web/home.php";
+
         $user = new User(2);
         $user->findById();
 
         echo $this->view->render(
             "home",[
-                "title" => CONF_SITE_NAME,
-                "user" => $user,
-                "name" => "Fábio"
+                "user" => $user
             ]);
     }
 
     public function about() : void
     {
-        echo $this->view->render("about",[
-            "title" => CONF_SITE_NAME
-        ]);
+        echo $this->view->render("about");
     }
 
-    public function project()
+    public function contact(array $data) : void
     {
-
+        var_dump($data);
+        echo $this->view->render("contact");
     }
 
     public function error(array $data) : void

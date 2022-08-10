@@ -20,9 +20,8 @@ define("CONF_URL_TEST", "https://www.localhost/acme-tarde"); // depois da / deve
 define("CONF_VIEW_WEB", __DIR__ . "/../../themes/web");
 define("CONF_VIEW_APP", __DIR__ . "/../../themes/app");
 define("CONF_VIEW_ADMIN", __DIR__ . "/../../themes/admin");
-define("CONF_VIEW_EXT", "php");
 
 
 // SITE
 
-define("CONF_SITE_NAME", "O nome do seu site...");
+define("CONF_SITE_NAME", "MOCITEC - 2023");

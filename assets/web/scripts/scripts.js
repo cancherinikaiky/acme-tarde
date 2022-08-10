@@ -1,4 +1,4 @@
-const myH2 = document.createElement("h2");
-myH2.innerHTML = "Aplicação da Web";
+const myH1 = document.createElement("h1");
+myH1.innerHTML = "Aplicação da Web";
 
-document.querySelector("h1").insertAdjacentElement("afterend",myH2);
+document.querySelector("nav").insertAdjacentElement("afterend",myH1);
