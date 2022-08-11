@@ -2,7 +2,7 @@
   $this->layout("_theme");
 ?>
 <div>
-    <h1>Página Principal</h1>
+    <h1>Página Principal - Minha home</h1>
     <div>
         <?php
             if(!$user->getName()) {
