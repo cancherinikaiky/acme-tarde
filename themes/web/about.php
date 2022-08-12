@@ -4,4 +4,8 @@
     <div>
         Texto/Conteúdo da página sobre!
     </div>
+    <div>
+        Nome: <?= $name; ?> - Idade: <?= $age; ?>
+    </div>
+
 </div>

@@ -21,16 +21,19 @@ class Web
 
         $user = new User(2);
         $user->findById();
+        //var_dump($user);
 
         echo $this->view->render(
-            "home",[
-                "user" => $user
-            ]);
+            "home",["user" => $user]);
     }
 
     public function about() : void
     {
-        echo $this->view->render("about");
+        echo $this->view->render(
+            "about",
+            ["name" => "Fábio", "age" => 46]
+        );
+
     }
 
     public function contact(array $data) : void
