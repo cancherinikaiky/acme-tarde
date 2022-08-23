@@ -36,6 +36,111 @@ class Web
 
     }
 
+    public function register(?array $data) : void
+    {
+        if(!empty($data)){
+
+            if(in_array("", $data)) {
+                $json = [
+                    "message" => "Informe nome, e-mail e senha para cadastrar!",
+                    "type" => "warning"
+                ];
+
+                echo json_encode($json);
+                return;
+            }
+
+            if(!is_email($data["email"])){
+                $json = [
+                    "message" => "Por favor, informe um e-mail válido!",
+                    "type" => "warning"
+                ];
+                echo json_encode($json);
+                return;
+            }
+
+            $user = new User();
+
+            if($user->findByEmail($data["email"])){
+                $json = [
+                    "message" => "Email já cadastrado!",
+                    "type" => "warning"
+                ];
+                echo json_encode($json);
+                return;
+            }
+
+            $user = new User(
+                null,
+                $data["name"],
+                $data["email"],
+                $data["password"]
+            );
+
+            if(!$user->insert()){
+                $json = [
+                    "message" => $user->getMessage(),
+                    "type" => "error"
+                ];
+                echo json_encode($json);
+                return;
+            } else {
+                $json = [
+                    "name" => $data["name"],
+                    "message" => $user->getMessage(),
+                    "type" => "success"
+                ];
+                echo json_encode($json);
+                return;
+            }
+
+            // Usuário salvo com sucesso
+            return;
+        }
+
+        echo $this->view->render("register",["eventName" => CONF_SITE_NAME]);
+    }
+
+    public function login(?array $data) : void
+    {
+        if(!empty($data)) {
+            if(in_array("", $data)){
+                $json = [
+                    "message" => "Informe e-mail e senha para entrar!",
+                    "type" => "warning"
+                ];
+
+                echo json_encode($json);
+                return;
+            }
+
+            $user = new User();
+
+            if(!$user->validate($data["email"],$data["password"])){
+                $json = [
+                    "message" => "E-mail e/ou senha não estão cadastrados!",
+                    "type" => "error"
+                ];
+                echo json_encode($json);
+                return;
+            }
+
+            // Autorizado, usuário segue para o APP
+
+            $json = [
+                "name" => $user->getName(),
+                "email" => $user->getEmail(),
+                "message" => $user->getMessage(),
+                "type" => "success"
+            ];
+            echo json_encode($json);
+            return;
+        }
+
+        echo $this->view->render("login",["eventName" => CONF_SITE_NAME]);
+
+    }
+
     public function contact(array $data) : void
     {
         var_dump($data);

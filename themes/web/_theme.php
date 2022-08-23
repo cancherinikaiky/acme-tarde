@@ -18,6 +18,7 @@
     <link href="<?= url("assets/web/"); ?>plugins/slick/slick-theme.css" rel="stylesheet">
     <!-- CUSTOM CSS -->
     <link href="<?= url("assets/web/"); ?>css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?= url("assets/web/"); ?>css/message.css" rel="stylesheet">
     <!-- FAVICON -->
     <link href="<?= url("assets/web/"); ?>images/favicon.png" rel="shortcut icon">
 </head>
@@ -29,7 +30,7 @@
     <div class="container-fluid p-0">
         <!-- logo -->
         <a class="navbar-brand" href="index.html">
-            <img src="<?= url("assets/web/"); ?>images/logo.png" alt="logo">
+            <img src="<?= url("assets/web/"); ?>images/logo.png" alt="logo" width="167" height="35">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="fa fa-bars"></span>
@@ -65,6 +66,14 @@
                         <a class="dropdown-item" href="404.html">404</a>
                     </div>
                 </li>
+                <li class="nav-item dropdown dropdown-slide">
+                    <a class="nav-link" href="#" data-toggle="dropdown">Submeter Trabalho<span>/</span></a>
+                    <!-- Dropdown list -->
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="<?= url("login"); ?>">Entrar</a>
+                        <a class="dropdown-item" href="<?= url("cadastrar"); ?>">Cadastrar</a>
+                    </div>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="schedule.html">Schedule<span>/</span></a>
                 </li>
@@ -97,30 +106,6 @@
 
 <!--====  End of Navigation Section  ====-->
 
-<!--============================
-=            Banner            =
-=============================-->
-<section class="banner bg-banner-one overlay">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <!-- Content Block -->
-                <div class="block">
-                    <!-- Coundown Timer -->
-                    <div class="timer"></div>
-                    <h1>Business</h1>
-                    <h2>Conference 2017</h2>
-                    <h6>02-05 July 2017 California</h6>
-                    <!-- Action Button -->
-                    <a href="#" class="btn btn-white-md">get ticket now</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--====  End of Banner  ====-->
-
 <!-- Section content -->
 <?php echo $this->section("content"); ?>
 
@@ -134,8 +119,8 @@
     <div class="address-block">
         <h4>Docklands Convention</h4>
         <ul class="address-list p-0 m-0">
-            <li><i class="fa fa-home"></i><span>Street Address, Location, <br>City, Country.</span></li>
-            <li><i class="fa fa-phone"></i><span>[00] 000 000 000</span></li>
+            <li><i class="fa fa-home"></i><span>Rua General Balbão, 81, <br>Charqueadas - RS.</span></li>
+            <li><i class="fa fa-phone"></i><span>(51) 3658-3602</span></li>
         </ul>
         <a href="#" class="btn btn-white-md">Get Direction</a>
     </div>
@@ -184,7 +169,7 @@
         <div class="row">
             <div class="col-md-6 align-self-center">
                 <div class="copyright-text">
-                    <p><a href="#">Eventre</a> &#169; 2017 All Right Reserved</p>
+                    <p><a href="#"><?= CONF_SITE_NAME; ?></a> &#169; 2023 Todos os Direitos Reservados</p>
                 </div>
             </div>
             <div class="col-md-6">

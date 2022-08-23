@@ -4,7 +4,7 @@
  * Esse script consta no composer.json para ser incluido automaticamente
  */
 
- // ###   VALIDATE   ###
+// ###   VALIDATE   ###
 
 function is_email(string $email): bool
 {
