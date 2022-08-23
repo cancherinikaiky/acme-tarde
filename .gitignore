@@ -1,3 +1,4 @@
-/.idea
-/vendor
+/.idea/
+/vendor/
+/themes/web/*.html
 composer.lock

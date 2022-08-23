@@ -6,7 +6,6 @@ require __DIR__ . "/vendor/autoload.php";
 use CoffeeCode\Router\Router;
 
 $route = new Router(CONF_URL_BASE, ":");
-//$route = new Router('localhost/acme-tarde', ":"); // Route para localhost
 
 /**
  * Web Routes
