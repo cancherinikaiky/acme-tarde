@@ -13,10 +13,14 @@ class User
     private $document;
     private $message;
 
-    public function getMessage(): ?int
+    /**
+     * @return mixed
+     */
+    public function getMessage()
     {
         return $this->message;
     }
+
 
     /**
      * @return int|null
@@ -98,8 +102,6 @@ class User
         $this->document = $document;
     }
 
-
-
     public function __construct(
         int $id = NULL,
         string $name = NULL,
@@ -143,6 +145,44 @@ class User
             $this->email = $user->email;
             return true;
         }
+    }
+
+    public function findByEmail(string $email)
+    {
+        $query = "SELECT * FROM users WHERE email = :email";
+        $stmt = Connect::getInstance()->prepare($query);
+        $stmt->bindParam(":email", $email);
+        $stmt->execute();
+        if($stmt->rowCount() == 1){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public function validate (string $email, string $password) : bool
+    {
+        $query = "SELECT * FROM users WHERE email LIKE :email";
+        $stmt = Connect::getInstance()->prepare($query);
+        $stmt->bindParam(":email", $email);
+        $stmt->execute();
+
+        if($stmt->rowCount() == 0){
+            $this->message = "Usuário e/ou Senha não cadastrados!";
+            return false;
+        } else {
+            $user = $stmt->fetch();
+            if(!password_verify($password, $user->password)){
+                $this->message = "Usuário e/ou Senha não cadastrados!";
+                return false;
+            }
+        }
+
+        $this->name = $user->name;
+        $this->email = $user->email;
+        $this->message = "Usuário Autorizado, redirect to APP!";
+
+        return true;
     }
 
     public function insert() : bool

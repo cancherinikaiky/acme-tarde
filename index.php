@@ -19,13 +19,12 @@ $route->get("/contato","Web:contact");
 $route->post("/contato","Web:contact");
 
 /**
- * REGISTER LOGIN
+ *  REGISTER LOGIN
  */
 $route->get("/cadastrar","Web:register");
 $route->post("/cadastrar","Web:register");
-
-
 $route->get("/login","Web:login");
+$route->post("/login","Web:login");
 
 
 /**
