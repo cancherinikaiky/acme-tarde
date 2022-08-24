@@ -29,7 +29,7 @@
     <div class="container-fluid p-0">
         <!-- logo -->
         <a class="navbar-brand" href="index.html">
-            <img src="<?= url("assets/web/"); ?>images/logo.png" alt="logo">
+            <img src="<?= url("assets/web/"); ?>images/logo.png" width="150" height="40" alt="logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="fa fa-bars"></span>
@@ -63,6 +63,14 @@
                         <a class="dropdown-item" href="pricing.html">Pricing</a>
                         <a class="dropdown-item" href="FAQ.html">FAQ</a>
                         <a class="dropdown-item" href="404.html">404</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown dropdown-slide">
+                    <a class="nav-link" href="#" data-toggle="dropdown">Submeter Trabalho<span>/</span></a>
+                    <!-- Dropdown list -->
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="<?= url("login"); ?>">Entrar</a>
+                        <a class="dropdown-item" href="<?= url("cadastrar"); ?>">Cadastrar</a>
                     </div>
                 </li>
                 <li class="nav-item">

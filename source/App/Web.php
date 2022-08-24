@@ -36,6 +36,31 @@ class Web
 
     }
 
+    public function register(?array $data) : void
+    {
+        if(!empty($data)){
+            //var_dump($data);
+            echo json_encode($data);
+
+            $user = new User(
+                null,
+                $data["name"],
+                $data["email"],
+                $data["password"]
+            );
+            $user->insert();
+            return;
+        }
+
+        echo $this->view->render("register",[]);
+    }
+
+
+    public function login() : void
+    {
+        echo $this->view->render("login",[]);
+    }
+
     public function contact(array $data) : void
     {
         var_dump($data);

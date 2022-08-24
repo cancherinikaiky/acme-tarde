@@ -11,6 +11,12 @@ class User
     private $email;
     private $password;
     private $document;
+    private $message;
+
+    public function getMessage(): ?int
+    {
+        return $this->message;
+    }
 
     /**
      * @return int|null
@@ -137,6 +143,18 @@ class User
             $this->email = $user->email;
             return true;
         }
+    }
+
+    public function insert() : bool
+    {
+        $query = "INSERT INTO users (name, email, password) VALUES (:name, :email, :password)";
+        $stmt = Connect::getInstance()->prepare($query);
+        $stmt->bindParam(":name", $this->name);
+        $stmt->bindParam(":email", $this->email);
+        $stmt->bindValue(":password", password_hash($this->password,PASSWORD_DEFAULT));
+        $stmt->execute();
+        $this->message = "Usuário cadastrado com sucesso!";
+        return true;
     }
 
 }
