@@ -195,9 +195,6 @@
 <script src="<?= url("assets/web/"); ?>plugins/slick/slick.min.js"></script>
 <!-- SyoTimer -->
 <script src="<?= url("assets/web/"); ?>plugins/syotimer/jquery.syotimer.min.js"></script>
-<!-- Google Mapl -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
-<script type="text/javascript" src="<?= url("assets/web/"); ?>plugins/google-map/gmap.js"></script>
 <!-- Custom Script -->
 <script src="<?= url("assets/web/"); ?>js/custom.js"></script>
 </body>

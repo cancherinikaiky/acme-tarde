@@ -117,6 +117,9 @@ class User
         $this->document = $document;
     }
 
+    /**
+     * @return array|false
+     */
     public function selectAll ()
     {
         $query = "SELECT * FROM users";
@@ -130,6 +133,9 @@ class User
         }
     }
 
+    /**
+     * @return bool
+     */
     public function findById() : bool
     {
         $query = "SELECT * FROM users WHERE id = :id";
@@ -147,7 +153,11 @@ class User
         }
     }
 
-    public function findByEmail(string $email)
+    /**
+     * @param string $email
+     * @return bool
+     */
+    public function findByEmail(string $email) : bool
     {
         $query = "SELECT * FROM users WHERE email = :email";
         $stmt = Connect::getInstance()->prepare($query);
@@ -160,6 +170,11 @@ class User
         }
     }
 
+    /**
+     * @param string $email
+     * @param string $password
+     * @return bool
+     */
     public function validate (string $email, string $password) : bool
     {
         $query = "SELECT * FROM users WHERE email LIKE :email";
@@ -185,6 +200,9 @@ class User
         return true;
     }
 
+    /**
+     * @return bool
+     */
     public function insert() : bool
     {
         $query = "INSERT INTO users (name, email, password) VALUES (:name, :email, :password)";
