@@ -19,18 +19,13 @@ $route->get("/contato","Web:contact");
 $route->post("/contato","Web:contact");
 
 /**
- * LOGIN
+ *  REGISTER LOGIN
  */
-
+$route->get("/cadastrar","Web:register");
+$route->post("/cadastrar","Web:register");
 $route->get("/login","Web:login");
 $route->post("/login","Web:login");
 
-/**
- * REGISTER
- */
-
-$route->get("/cadastrar","Web:register");
-$route->post("/cadastrar","Web:register");
 
 /**
  * App Routs

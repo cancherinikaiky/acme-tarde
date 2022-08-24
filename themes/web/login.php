@@ -78,9 +78,7 @@ $this->layout("_theme");
                                 if(user) {
                                     message.innerHTML = user.message;
                                     message.classList.add("message");
-                                    message.classList.remove("success");
-                                    message.classList.remove("warning");
-                                    message.classList.remove("error");
+                                    message.classList.remove("success", "warning", "error");
                                     message.classList.add(`${user.type}`);
                                 }
                             });
