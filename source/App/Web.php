@@ -103,13 +103,22 @@ class Web
 
     public function login(?array $data) : void
     {
-        if(!empty($data)) {
-            if(in_array("", $data)){
+        if(!empty($data)){
+
+            if(in_array("",$data)){
                 $json = [
                     "message" => "Informe e-mail e senha para entrar!",
                     "type" => "warning"
                 ];
+                echo json_encode($json);
+                return;
+            }
 
+            if(!is_email($data["email"])){
+                $json = [
+                    "message" => "Por favor, informe um e-mail válido!",
+                    "type" => "warning"
+                ];
                 echo json_encode($json);
                 return;
             }
@@ -118,14 +127,12 @@ class Web
 
             if(!$user->validate($data["email"],$data["password"])){
                 $json = [
-                    "message" => "E-mail e/ou senha não estão cadastrados!",
+                    "message" => $user->getMessage(),
                     "type" => "error"
                 ];
                 echo json_encode($json);
                 return;
             }
-
-            // Autorizado, usuário segue para o APP
 
             $json = [
                 "name" => $user->getName(),
@@ -135,6 +142,7 @@ class Web
             ];
             echo json_encode($json);
             return;
+
         }
 
         echo $this->view->render("login",["eventName" => CONF_SITE_NAME]);

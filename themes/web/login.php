@@ -51,10 +51,10 @@ $this->layout("_theme");
                         </div>
                         <form id="form-login" class="row" novalidate>
                             <div class="col-md-6">
-                                <input type="email" name="email" value="fabiosantos@ifsul.edu.br" class="form-control main" placeholder="Seu Email..." required>
+                                <input type="email" name="email" value="" class="form-control main" placeholder="Seu Email..." required>
                             </div>
                             <div class="col-md-6">
-                                <input type="password" name="password" value="12345678" class="form-control main" placeholder="Sua Senha..." required>
+                                <input type="password" name="password" value="" class="form-control main" placeholder="Sua Senha..." required>
                             </div>
                             <div class="col-12">
                                 <button type="submit" class="btn btn-white-md">Continuar</button>
@@ -76,7 +76,7 @@ $this->layout("_theme");
                                 const user = await data.json();
                                 console.log(user);
                                 if(user) {
-                                    message.innerHTML = user.message;
+                                    message.innerHTML = user.message + ` Olá, ${user.name}!`;
                                     message.classList.add("message");
                                     message.classList.remove("success", "warning", "error");
                                     message.classList.add(`${user.type}`);

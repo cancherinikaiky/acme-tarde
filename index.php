@@ -23,9 +23,9 @@ $route->post("/contato","Web:contact");
  */
 $route->get("/cadastrar","Web:register");
 $route->post("/cadastrar","Web:register");
+
 $route->get("/login","Web:login");
 $route->post("/login","Web:login");
-
 
 /**
  * App Routs

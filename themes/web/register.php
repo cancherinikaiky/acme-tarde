@@ -67,21 +67,23 @@ $this->layout("_theme");
                             </div>
                         </form>
                         <script type="text/javascript" async>
-                            const form = document.querySelector("#form-register");
-                            const message = document.querySelector("#message");
+                            const form = document.querySelector("#form-register"); // id do formulário
+                            const message = document.querySelector("#message"); // id da div message
                             form.addEventListener("submit", async (e) => {
                                 e.preventDefault();
                                 const dataUser = new FormData(form);
+                                // enviar para a rota já definida
                                 const data = await fetch("<?= url("cadastrar"); ?>",{
                                     method: "POST",
                                     body: dataUser,
                                 });
                                 const user = await data.json();
                                 console.log(user);
+                                // tratamento da mensagem
                                 if(user) {
                                     message.innerHTML = user.message;
-                                    message.classList.add("message");
                                     message.classList.remove("success", "warning", "error");
+                                    message.classList.add("message");
                                     message.classList.add(`${user.type}`);
                                 }
                             });
