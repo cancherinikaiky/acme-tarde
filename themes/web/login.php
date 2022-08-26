@@ -76,7 +76,11 @@ $this->layout("_theme");
                                 const user = await data.json();
                                 console.log(user);
                                 if(user) {
-                                    message.innerHTML = user.message + ` Olá, ${user.name}!`;
+                                    if(user.message === "message"){
+                                        message.innerHTML = user.message + ` Olá, ${user.name}!`;
+                                    } else {
+                                        message.innerHTML = user.message;
+                                    }
                                     message.classList.add("message");
                                     message.classList.remove("success", "warning", "error");
                                     message.classList.add(`${user.type}`);
