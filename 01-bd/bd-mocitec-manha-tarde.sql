@@ -133,29 +133,30 @@ INSERT INTO `evaluators` VALUES (1,'lLink lattes',3);
 UNLOCK TABLES;
 
 --
--- Table structure for table `faq`
+-- Table structure for table `faqs`
 --
 
-DROP TABLE IF EXISTS `faq`;
+DROP TABLE IF EXISTS `faqs`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `faq` (
-                       `id` int(11) NOT NULL AUTO_INCREMENT,
-                       `question` text NOT NULL,
-                       `response` text NOT NULL,
-                       `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
-                       `updated_at` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp(),
-                       PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+CREATE TABLE `faqs` (
+                        `id` int(11) NOT NULL AUTO_INCREMENT,
+                        `question` text NOT NULL,
+                        `answer` text NOT NULL,
+                        `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+                        `updated_at` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp(),
+                        PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `faq`
+-- Dumping data for table `faqs`
 --
 
-LOCK TABLES `faq` WRITE;
-/*!40000 ALTER TABLE `faq` DISABLE KEYS */;
-/*!40000 ALTER TABLE `faq` ENABLE KEYS */;
+LOCK TABLES `faqs` WRITE;
+/*!40000 ALTER TABLE `faqs` DISABLE KEYS */;
+INSERT INTO `faqs` VALUES (1,'Como submeter um projeto?','It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.','2022-08-29 18:29:17',NULL),(2,'Quais os dias das apresentações?','It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.','2022-08-29 18:29:17',NULL),(3,'Para quais feiras e mostras a MOCITE credencia?','Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for \'lorem ipsum\' will uncover many web sites still in their infancy.','2022-08-29 18:29:17',NULL),(4,'Como acontecerão as apresentações da mostra Virtual?','Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for \'lorem ipsum\' will uncover many web sites still in their infancy.','2022-08-29 18:29:17',NULL);
+/*!40000 ALTER TABLE `faqs` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -261,4 +262,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-08-26  8:34:56
+-- Dump completed on 2022-08-31 14:31:14

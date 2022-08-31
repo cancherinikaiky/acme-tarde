@@ -3,6 +3,7 @@
 namespace Source\App;
 
 use League\Plates\Engine;
+use Source\Models\Faq;
 use Source\Models\User;
 
 class Web
@@ -19,21 +20,32 @@ class Web
     {
         // require __DIR__ . "/../../themes/web/home.php";
 
-        $user = new User(2);
-        $user->findById();
+        //$user = new User(2);
+        //$user->findById();
         //var_dump($user);
 
         echo $this->view->render(
-            "home",["user" => $user]);
+            "home",[]);
     }
 
     public function about() : void
     {
         echo $this->view->render(
-            "about",
-            ["name" => "Fábio", "age" => 46]
+            "about",[]
         );
 
+    }
+
+    public function faq()
+    {
+        $faq = new Faq();
+        $faqs = $faq->selectAll();
+
+        echo $this->view->render("faq",
+            [
+            "faqs" => $faqs
+            ]
+        );
     }
 
     public function register(?array $data) : void
@@ -151,14 +163,11 @@ class Web
 
     public function contact(array $data) : void
     {
-        var_dump($data);
         echo $this->view->render("contact");
     }
 
     public function error(array $data) : void
     {
-//      echo "<h1>Erro {$data["errcode"]}</h1>";
-//      include __DIR__ . "/../../themes/web/404.php";
         echo $this->view->render("404", [
             "title" => "Erro {$data["errcode"]} | " . CONF_SITE_NAME,
             "error" => $data["errcode"]

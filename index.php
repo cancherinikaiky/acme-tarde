@@ -18,6 +18,8 @@ $route->get("/sobre","Web:about");
 $route->get("/contato","Web:contact");
 $route->post("/contato","Web:contact");
 
+$route->get("/faq","Web:faq");
+
 /**
  *  REGISTER LOGIN
  */
