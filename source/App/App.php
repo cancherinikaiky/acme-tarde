@@ -2,22 +2,27 @@
 
 namespace Source\App;
 
+use League\Plates\Engine;
+
 class App
 {
-    public function home () : void 
+    private $view;
+
+    public function __construct()
     {
-        require __DIR__ . "/../../themes/app/home.php";
+        $this->view = new Engine(CONF_VIEW_APP,'php');
+    }
+
+    public function home () : void
+    {
+        echo $this->view->render("home");
     }
 
     public function list () : void 
     {
-        require __DIR__ . "/../../themes/app/list.php";
+
     }
 
-    public function createPDF () : void
-    {
-       require __DIR__ . "/../../themes/app/create-pdf.php";
-    }
 }
 
 ?>

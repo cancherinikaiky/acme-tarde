@@ -24,8 +24,7 @@ class Web
         //$user->findById();
         //var_dump($user);
 
-        echo $this->view->render(
-            "home",[]);
+        echo $this->view->render("home",[]);
     }
 
     public function about() : void
