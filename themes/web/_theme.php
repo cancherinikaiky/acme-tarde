@@ -26,6 +26,7 @@
 <!--========================================
 =            Navigation Section            =
 =========================================-->
+
 <nav class="navbar main-nav border-less fixed-top navbar-expand-lg p-0">
     <div class="container-fluid p-0">
         <!-- logo -->
@@ -64,6 +65,19 @@
                         <a class="dropdown-item" href="pricing.html">Pricing</a>
                         <a class="dropdown-item" href="<?= url("faq"); ?>">FAQ</a>
                         <a class="dropdown-item" href="404.html">404</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown dropdown-slide">
+                    <a class="nav-link" href="#" data-toggle="dropdown">Projetos<span>/</span></a>
+                    <!-- Dropdown list -->
+                    <div class="dropdown-menu">
+                        <?php
+                        foreach ($categories as $category){
+                        ?>
+                        <a class="dropdown-item" href="<?= url("projetos/{$category->id}"); ?>"><?= $category->level . $category->field; ?></a>
+                        <?php
+                        }
+                        ?>
                     </div>
                 </li>
                 <li class="nav-item dropdown dropdown-slide">

@@ -30,6 +30,11 @@ $route->get("/login","Web:login");
 $route->post("/login","Web:login");
 
 /**
+ * PROJECTS
+ */
+$route->get("/projetos/{idCategory}","Web:projects");
+
+/**
  * App Routs
  */
 

@@ -3,34 +3,38 @@
 namespace Source\App;
 
 use League\Plates\Engine;
+use Source\Models\Category;
 use Source\Models\Faq;
 use Source\Models\User;
 
 class Web
 {
     private $view;
+    private $categories;
 
     public function __construct()
     {
+        $categories = new Category();
+        $this->categories = $categories->selectAll();
+
         $this->view = new Engine(CONF_VIEW_WEB,'php');
-        //$this->view = new Engine(__DIR__ . "/../../themes/web",'php');
     }
 
     public function home() : void
     {
-        // require __DIR__ . "/../../themes/web/home.php";
-
-        //$user = new User(2);
-        //$user->findById();
-        //var_dump($user);
-
-        echo $this->view->render("home",[]);
+        echo $this->view->render(
+            "home",[
+                "categories" => $this->categories
+            ]
+        );
     }
 
     public function about() : void
     {
         echo $this->view->render(
-            "about",[]
+            "about",[
+                "categories" => $this->categories
+            ]
         );
 
     }
@@ -42,7 +46,8 @@ class Web
 
         echo $this->view->render("faq",
             [
-            "faqs" => $faqs
+                "categories" => $this->categories,
+                "faqs" => $faqs
             ]
         );
     }
@@ -109,7 +114,12 @@ class Web
             return;
         }
 
-        echo $this->view->render("register",["eventName" => CONF_SITE_NAME]);
+        echo $this->view->render(
+            "register",
+            [
+                "categories" => $this->categories,
+                "eventName" => CONF_SITE_NAME
+            ]);
     }
 
     public function login(?array $data) : void
@@ -156,18 +166,37 @@ class Web
 
         }
 
-        echo $this->view->render("login",["eventName" => CONF_SITE_NAME]);
+        echo $this->view->render(
+            "login",
+            [
+                "categories" => $this->categories,
+                "eventName" => CONF_SITE_NAME
+            ]);
 
+    }
+
+    public function projects(?array $data) : void
+    {
+        if(!empty($data)){
+            echo "Aqui";
+            var_dump($data);
+        }
+        echo $this->view->render(
+            "projects",["categories" => $this->categories]
+        );
     }
 
     public function contact(array $data) : void
     {
-        echo $this->view->render("contact");
+        echo $this->view->render(
+            "contact",["categories" => $this->categories]
+        );
     }
 
     public function error(array $data) : void
     {
         echo $this->view->render("404", [
+            "categories" => $this->categories,
             "title" => "Erro {$data["errcode"]} | " . CONF_SITE_NAME,
             "error" => $data["errcode"]
         ]);

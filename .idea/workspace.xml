@@ -4,185 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51d9dffd-06fa-4e83-afcb-6a27a35677bc" name="Changes" comment="Com Tema Bootstrap">
-      <change afterPath="$PROJECT_DIR$/assets/web/css/maps/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/background/banner-bg-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/background/bg-registration-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/background/cta-ticket-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/background/feature-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/background/homepage-one-banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/background/newsletter-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/background/objects.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/background/page-title-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/background/pattern-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/background/registration-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/background/schedule-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/background/spaeker-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/background/sponsors-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/background/timer-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/footer-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-five.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-four.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-full-eight.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-full-five.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-full-four.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-full-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-full-popup-eight.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-full-popup-five.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-full-popup-four.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-full-popup-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-full-popup-six.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-full-popup-sven.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-full-popup-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-full-popup-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-full-seven.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-full-six.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-full-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-full-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-less-eight.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-less-five.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-less-four.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-less-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-less-seven.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-less-six.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-less-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-less-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-popup-eight.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-popup-five.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-popup-four.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-popup-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-popup-seven.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-popup-six.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-popup-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-popup-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-six.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/gallery/gallery-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/icon/marker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/icon/ticket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/news/post-thumb-eight.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/news/post-thumb-five.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/news/post-thumb-four.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/news/post-thumb-hr-four.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/news/post-thumb-hr-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/news/post-thumb-hr-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/news/post-thumb-hr-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/news/post-thumb-nine.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/news/post-thumb-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/news/post-thumb-seven.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/news/post-thumb-six.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/news/post-thumb-sm-four.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/news/post-thumb-sm-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/news/post-thumb-sm-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/news/post-thumb-sm-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/news/post-thumb-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/news/post-thumb-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/news/single-post.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/featured-speaker-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/featured-speaker.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/single-speaker.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/speaker-five.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/speaker-four.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/speaker-full-five.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/speaker-full-four.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/speaker-full-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/speaker-full-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/speaker-full-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/speaker-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/speaker-six.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/speaker-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/speaker-thumb-five.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/speaker-thumb-four.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/speaker-thumb-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/speaker-thumb-six.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/speaker-thumb-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/speaker-thumb-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/speaker-ticket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/speakers/speaker-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/sponsors/gl-spon-one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/sponsors/gl-spon-three.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/sponsors/gl-spon-two.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/sponsors/pt-spon-four.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/sponsors/pt-spon-one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/sponsors/pt-spon-three.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/images/sponsors/pt-spon-two.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/font-awsome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/font-awsome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/font-awsome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/font-awsome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/font-awsome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/font-awsome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/font-awsome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/font-awsome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/google-map/gmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/google-map/images/marker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/isotope/mixitup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/magnific-popup/jquery.magnific-popup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/magnific-popup/jquery.magnific-popup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/magnific-popup/magnific-popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/popper/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/slick/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/slick/fonts/slick.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/slick/fonts/slick.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/slick/fonts/slick.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/slick/fonts/slick.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/slick/slick-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/slick/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/slick/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/smoothscroll/SmoothScroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/smoothscroll/SmoothScroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/plugins/syotimer/jquery.syotimer.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/scss/_button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/scss/_common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/scss/_lists.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/scss/_media-queries.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/scss/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/scss/components/_call-to-action.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/scss/components/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/scss/components/_navigation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/scss/components/_page-title.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/scss/pages/_404.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/scss/pages/_about.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/scss/pages/_blog.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/scss/pages/_contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/scss/pages/_faq.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/scss/pages/_gallery.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/scss/pages/_home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/scss/pages/_speaker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web/scss/style.scss" afterDir="false" />
+    <list default="true" id="51d9dffd-06fa-4e83-afcb-6a27a35677bc" name="Changes" comment="Rotas e Theme APP">
+      <change afterPath="$PROJECT_DIR$/source/Models/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/web/projects.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/App/Web.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/App/Web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/web/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/web/404.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/web/_theme.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/web/_theme.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/web/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/web/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/web/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/web/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/web/faq.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/web/faq.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/web/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/web/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/web/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/web/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/web/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/web/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,8 +30,26 @@
       <executable path="composer" />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="login" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="login" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -216,16 +69,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/xampp/htdocs/acme-tarde/themes/web&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\acme-tarde\themes\web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\acme-tarde\themes\web" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -247,7 +113,30 @@
       <workItem from="1660738599848" duration="859000" />
       <workItem from="1660741480493" duration="1174000" />
       <workItem from="1660743831425" duration="5600000" />
-      <workItem from="1660759685787" duration="787000" />
+      <workItem from="1660759685787" duration="1180000" />
+      <workItem from="1660840515609" duration="697000" />
+      <workItem from="1660904977585" duration="424000" />
+      <workItem from="1661253295792" duration="7908000" />
+      <workItem from="1661271462149" duration="14593000" />
+      <workItem from="1661337695883" duration="765000" />
+      <workItem from="1661343967181" duration="2658000" />
+      <workItem from="1661357971419" duration="4698000" />
+      <workItem from="1661364974252" duration="186000" />
+      <workItem from="1661365440790" duration="3136000" />
+      <workItem from="1661368949158" duration="504000" />
+      <workItem from="1661426967696" duration="666000" />
+      <workItem from="1661430463392" duration="3641000" />
+      <workItem from="1661444997497" duration="4733000" />
+      <workItem from="1661509261004" duration="4362000" />
+      <workItem from="1661791824541" duration="5109000" />
+      <workItem from="1661882761805" duration="613000" />
+      <workItem from="1661962735743" duration="4123000" />
+      <workItem from="1662042381375" duration="897000" />
+      <workItem from="1662049701339" duration="3911000" />
+      <workItem from="1662639845506" duration="2049000" />
+      <workItem from="1662646893938" duration="2016000" />
+      <workItem from="1662654633899" duration="5261000" />
+      <workItem from="1662670032905" duration="1390000" />
     </task>
     <task id="LOCAL-00001" summary="Rotas e Utilização de Plates">
       <created>1660076837376</created>
@@ -298,7 +187,77 @@
       <option name="project" value="LOCAL" />
       <updated>1660335790665</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Com Tema Bootstrap">
+      <created>1660760544257</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660760544257</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Com Tema Bootstrap">
+      <created>1661253740206</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661253740206</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Register Login">
+      <created>1661287183232</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661287183232</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Register Login">
+      <created>1661358567059</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661358567059</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Start Login">
+      <created>1661365768849</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661365768849</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Start Login">
+      <created>1661369082723</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1661369082723</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Start Register Login">
+      <created>1661447691748</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661447691748</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Start Register Login">
+      <created>1661513965388</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1661513965388</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Start FAQs">
+      <created>1661967415702</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1661967415702</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Rotas e Theme APP">
+      <created>1662051729688</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1662051729688</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,11 +273,15 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rotas e Utilização de Plates" />
     <MESSAGE value="Com Tema Bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Com Tema Bootstrap" />
+    <MESSAGE value="Register Login" />
+    <MESSAGE value="Start Login" />
+    <MESSAGE value="Start Register Login" />
+    <MESSAGE value="Start FAQs" />
+    <MESSAGE value="Rotas e Theme APP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rotas e Theme APP" />
   </component>
 </project>
