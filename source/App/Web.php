@@ -5,6 +5,7 @@ namespace Source\App;
 use League\Plates\Engine;
 use Source\Models\Category;
 use Source\Models\Faq;
+use Source\Models\Project;
 use Source\Models\User;
 
 class Web
@@ -178,11 +179,14 @@ class Web
     public function projects(?array $data) : void
     {
         if(!empty($data)){
-            echo "Aqui";
-            var_dump($data);
+            $project = new Project();
+            $projects = $project->findByCategory($data["idCategory"]);
         }
         echo $this->view->render(
-            "projects",["categories" => $this->categories]
+            "projects",[
+                "categories" => $this->categories,
+                "projects" => $projects
+            ]
         );
     }
 
